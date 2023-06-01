@@ -26,7 +26,7 @@ Les nœuds capteurs se trouvent dans le chemin suivant : ```/opt/ros/humble/shar
 
 3/ Modification des paramètres :
 
-Avant de lancer la caméra, il est nécessaire de modifier les paramètres par défaut du pilote, qui se trouvent dans le fichier usb_cam/config/params.yaml. Ce fichier comprend un ensemble de paramètres, dont le format pris en charge par la caméra. Choisissez le format ```yuv2rgb```.
+Avant de lancer la caméra, il est nécessaire de modifier les paramètres par défaut du pilote, qui se trouvent dans le fichier usb_cam/config/params.yaml. Ce fichier comprend un ensemble de paramètres, dont le format pris en charge par la caméra. Choisissez le format ```yuv2rgb``` à la place de ```mjpeg2rg```.
 
 ![image](Image.png)
 
